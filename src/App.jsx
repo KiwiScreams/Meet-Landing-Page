@@ -26,7 +26,7 @@ function App() {
           </header>
           <main>
             <section className="head flex">
-              <div className="img">
+              <div className="img left">
                 <img src={image_hero_left} alt="image-hero-left" />
               </div>
               <div className="main-content">
@@ -37,7 +37,7 @@ function App() {
                   <button className="purple-btn btn">What is it?</button>
                 </div>
               </div>
-              <div className="img">
+              <div className="img right">
                 <img src={image_hero_right} alt="image-hero-right" />
               </div>
             </section>
@@ -75,7 +75,7 @@ function App() {
             <div className="footer-container flex">
               <h2>Experience more together</h2>
               <p>Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.</p>
-              <div className="btn purple-btn flex">Download <span>v1.3</span></div>
+              <button className="btn purple-btn flex">Download<span>v1.3</span></button>
             </div>
           </footer>
         </div>
