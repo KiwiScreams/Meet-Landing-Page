@@ -241,5 +241,13 @@ footer
   {
     padding: 90px 20px 50px 20px;
   }
-
+  footer
+  {
+    background: url(./assets/mobile/image-footer.jpg);
+    background-size: 100%;
+  }
+  ::-webkit-scrollbar
+  {
+    display: none;
+  }
 }
