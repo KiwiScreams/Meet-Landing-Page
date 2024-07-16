@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import image_hero_left from './assets/desktop/image-hero-left.png'
 import image_hero_right from './assets/desktop/image-hero-right.png'
 import logo from './assets/logo.svg';
@@ -8,6 +6,7 @@ import image_woman_in_videocall from './assets/desktop/image-woman-in-videocall.
 import image_women_videochatting from './assets/desktop/image-women-videochatting.jpg'
 import image_men_in_meeting from './assets/desktop/image-men-in-meeting.jpg'
 import image_man_texting from './assets/desktop/image-man-texting.jpg'
+import mobile from './assets/tablet/image-hero.png'
 import './App.css'
 
 function App() {
@@ -29,8 +28,11 @@ function App() {
               <div className="img left">
                 <img src={image_hero_left} alt="image-hero-left" />
               </div>
+              <div className="mobile-img">
+                <img src={mobile} alt="mobile" />
+              </div>
               <div className="main-content">
-                <h1>Group Chat<br />for Everyone</h1>
+                <h1>Group Chat<br/>for Everyone</h1>
                 <p className="body-text p">Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
                 <div className="buttons flex">
                   <button className="blue-btn btn">Download <span>v1.3</span></button>
