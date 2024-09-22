@@ -32,7 +32,6 @@
   --light-clr: #FAFAFA;
   --white-clr: #fff;
 }
-/* TEXT about */
 h1
 {
   font-size: 64px;
@@ -68,7 +67,6 @@ h2
   margin-top: 32px;
   font-family: 'medium';
 }
-/* BUTTON about */
 button:hover,
 a:hover
 {
@@ -112,7 +110,6 @@ a:hover
   justify-content: space-between;
   align-items: center;
 }
-/*  */
 ::-webkit-scrollbar
 {
   display: block;
