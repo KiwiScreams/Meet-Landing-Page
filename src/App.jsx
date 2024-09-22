@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import image_hero_left from './assets/desktop/image-hero-left.png'
 import image_hero_right from './assets/desktop/image-hero-right.png'
 import logo from './assets/logo.svg';
